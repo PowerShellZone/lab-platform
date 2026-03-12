@@ -1,4 +1,4 @@
-https://powershell-lab-function-edhwegapcge0ejf6.westeurope-01.azurewebsites.net/api/startlabasync function startLab() {
+async function startLab() {
 
 document.getElementById("status").innerText = "Starting lab...";
 
