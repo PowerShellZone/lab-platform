@@ -3,7 +3,7 @@ async function startLab() {
 document.getElementById("status").innerText = "Starting lab...";
 
 const response = await fetch(
-"https://powershell-lab-function-edhwegapcge0ejf6.westeurope-01.azurewebsites.net/api/startlab",
+"/api/startlab",
 {
 method: "POST",
 headers: {
